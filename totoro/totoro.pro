@@ -1,4 +1,4 @@
-update=Sat 13 Jul 2019 06:29:55 AM PDT
+update=Sun 28 Jul 2019 07:03:26 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -16,7 +16,7 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=totoro.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -29,10 +29,13 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2032
+TrackWidth2=0.2032
 ViaDiameter1=0.508
 ViaDrill1=0.254
+ViaDiameter2=0.508
+ViaDrill2=0.254
 dPairWidth1=0.2032
-dPairGap1=0.25
+dPairGap1=0.1524
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -65,11 +68,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -231,6 +234,17 @@ Clearance=0.1524
 TrackWidth=0.2032
 ViaDiameter=0.508
 ViaDrill=0.254
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2032
+dPairGap=0.1524
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.1524
+TrackWidth=0.508
+ViaDiameter=0.762
+ViaDrill=0.508
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2032
