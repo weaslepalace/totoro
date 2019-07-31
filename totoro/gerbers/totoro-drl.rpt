@@ -1,0 +1,29 @@
+Drill report for /home/spacecats/kicads/totoro/totoro/totoro.kicad_pcb
+Created on Tue 30 Jul 2019 09:53:47 PM PDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'totoro.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.20mm  0.008"  (4 holes)
+    T2  0.25mm  0.010"  (230 holes)
+    T3  0.51mm  0.020"  (9 holes)
+    T4  0.65mm  0.026"  (2 holes)  (with 2 slots)
+    T5  0.70mm  0.028"  (2 holes)  (with 2 slots)
+    T6  0.80mm  0.031"  (4 holes)
+
+    Total plated holes count 251
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
