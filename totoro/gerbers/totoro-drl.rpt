@@ -1,5 +1,5 @@
 Drill report for /home/spacecats/kicads/totoro/totoro/totoro.kicad_pcb
-Created on Tue 30 Jul 2019 09:53:47 PM PDT
+Created on Wed 31 Jul 2019 05:40:46 AM PDT
 
 Copper Layer Stackup:
     =============================================================
@@ -25,5 +25,6 @@ Drill file 'totoro.drl' contains
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
+    T7  3.00mm  0.118"  (2 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 2
